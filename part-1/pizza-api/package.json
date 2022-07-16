@@ -1,0 +1,41 @@
+{
+  "name": "pizza-api",
+  "version": "1.0.0",
+  "description": "Build a pizza API on the AWS cloud",
+  "main": "api.ts",
+  "scripts": {
+    "precreate": "tsc",
+    "preupdate": "tsc",
+    "create": "claudia create --region us-east-1 --api-module dist/api",
+    "update": "claudia update --cache-api-config apiConfig --no-optional-dependencies --runtime nodejs16.x --arch arm64 --memory 128",
+    "putRolePolicy": "aws iam put-role-policy --role-name pizza-api-executor --policy-name PizzaApiDynamoDB --policy-document file://./roles/dynamodb.json",
+    "scan": "aws dynamodb scan --table-name pizzas --region us-east-1 --output json",
+    "createDb": "aws dynamodb create-table --table-name pizzas --attribut e-definitions AttributeName=url,AttributeType=S --key-schema AttributeName=url,KeyType=HASH --provisioned-throughput ReadCapacityUnits=1,WriteCapacityUnits=1 --region us-east-1 --query TableDescription.TableArn --output text",
+    "type-check": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beautifulcoder/typescript-aws-lambda.git"
+  },
+  "keywords": [
+    "TypeScript",
+    "Node",
+    "AWS",
+    "DynamoDB"
+  ],
+  "author": "C R",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/beautifulcoder/typescript-aws-lambda/issues"
+  },
+  "homepage": "https://github.com/beautifulcoder/typescript-aws-lambda#readme",
+  "devDependencies": {
+    "claudia": "^5.14.1",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.113.0",
+    "claudia-api-builder": "^4.1.2",
+    "slugify": "^1.6.5"
+  }
+}
