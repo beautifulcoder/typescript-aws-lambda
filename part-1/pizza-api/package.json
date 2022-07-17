@@ -7,7 +7,7 @@
     "precreate": "tsc",
     "preupdate": "tsc",
     "create": "claudia create --region us-east-1 --api-module dist/api",
-    "update": "claudia update --cache-api-config apiConfig --no-optional-dependencies --runtime nodejs16.x --arch arm64 --memory 128",
+    "update": "claudia update --cache-api-config apiConfig",
     "putRolePolicy": "aws iam put-role-policy --role-name pizza-api-executor --policy-name PizzaApiDynamoDB --policy-document file://./roles/dynamodb.json",
     "scan": "aws dynamodb scan --table-name pizzas --region us-east-1 --output json",
     "createDb": "aws dynamodb create-table --table-name pizzas --attribut e-definitions AttributeName=url,AttributeType=S --key-schema AttributeName=url,KeyType=HASH --provisioned-throughput ReadCapacityUnits=1,WriteCapacityUnits=1 --region us-east-1 --query TableDescription.TableArn --output text",
