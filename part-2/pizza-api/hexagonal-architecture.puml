@@ -1,0 +1,28 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+package "AWS Gateway Event" {
+  class GatewayEventType #aliceblue {
+    body: pizza
+    pathParams: url
+  }
+}
+
+package "Claudia API" {
+  class api #aliceblue {
+    POST /pizzas: pizzaItem
+    GET /pizzas/{url}: pizzaItem
+  }
+}
+
+package DynamoDB {
+  class PizzaDb #aliceblue {
+    makePizza: pizzaItem
+    tastePizza: pizzaItem
+  }
+}
+
+"AWS Gateway Event" --^ "Claudia API"
+"Claudia API" --^ DynamoDB
+
+@enduml

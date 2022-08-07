@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="525px" preserveAspectRatio="none" style="width:244px;height:525px;" version="1.1" viewBox="0 0 244 525" width="244px" zoomAndPan="magnify"><defs><filter height="300%" id="fh0g7eaoavqjk" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[c37a57b72b552a23d54dd75ff5714f3a]
+cluster AWS Gateway Event--><polygon fill="#FFFFFF" filter="url(#fh0g7eaoavqjk)" points="16,6,161,6,168,29.6094,219,29.6094,219,150,16,150,16,6" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="16" x2="168" y1="29.6094" y2="29.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="139" x="20" y="22.5332">AWS Gateway Event</text><!--MD5=[3e0495ca89d5abe81ce4a120191a5cb3]
+cluster Claudia API--><polygon fill="#FFFFFF" filter="url(#fh0g7eaoavqjk)" points="16,190,100,190,107,213.6094,227,213.6094,227,334,16,334,16,190" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="16" x2="107" y1="213.6094" y2="213.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="78" x="20" y="206.5332">Claudia API</text><!--MD5=[4c4d9d964ed89246c6e0e353656dc608]
+cluster DynamoDB--><polygon fill="#FFFFFF" filter="url(#fh0g7eaoavqjk)" points="16,374,97,374,104,397.6094,197,397.6094,197,518,16,518,16,374" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="16" x2="104" y1="397.6094" y2="397.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="75" x="20" y="390.5332">DynamoDB</text><!--MD5=[18aaf1abd46322cd1ce45ad4940823e2]
+class GatewayEventType--><rect codeLine="4" fill="#F0F8FF" filter="url(#fh0g7eaoavqjk)" height="75.6719" id="GatewayEventType" style="stroke:#A80036;stroke-width:1.5;" width="135" x="59.5" y="50"/><ellipse cx="74.5" cy="66" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M76.5,62.5 Q76.7031,62 76.9375,61.75 Q77.1719,61.5 77.4375,61.5 Q77.9063,61.5 78.2031,61.7813 Q78.5,62.0625 78.5,62.7188 L78.5,64.2813 Q78.5,64.9375 78.2188,65.2188 Q77.9375,65.5 77.5,65.5 Q77.1094,65.5 76.8594,65.3281 Q76.6094,65.1563 76.5,64.7031 Q76.4531,64.3906 76.2813,64.2188 Q75.9688,63.8906 75.4063,63.7031 Q74.8438,63.5 74.2813,63.5 Q73.5781,63.5 72.9844,63.7813 Q72.4063,64.0625 71.9531,64.6875 Q71.5,65.3125 71.5,66.1719 L71.5,67.0938 Q71.5,68.125 72.3438,68.8125 Q73.1875,69.5 74.6875,69.5 Q75.5781,69.5 76.2031,69.2969 Q76.5625,69.1875 76.9688,68.8281 Q77.2344,68.625 77.375,68.5625 Q77.5156,68.5 77.6875,68.5 Q78.0156,68.5 78.25,68.7656 Q78.5,69.0156 78.5,69.375 Q78.5,69.7188 78.1563,70.125 Q77.6563,70.7188 76.8594,71.0469 Q75.8125,71.5 74.5313,71.5 Q73.0313,71.5 71.8281,70.9063 Q70.8594,70.4375 70.1719,69.4219 Q69.5,68.4063 69.5,67.2031 L69.5,66.1094 Q69.5,64.8594 70.0938,63.7656 Q70.7031,62.6719 71.75,62.0938 Q72.8125,61.5 74,61.5 Q74.7188,61.5 75.3438,61.75 Q75.9688,62 76.5,62.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="103" x="88.5" y="70.9102">GatewayEventType</text><line style="stroke:#A80036;stroke-width:1.5;" x1="60.5" x2="193.5" y1="82" y2="82"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="56" x="65.5" y="97.4189">body: pizza</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="75" x="65.5" y="111.2549">pathParams: url</text><line style="stroke:#A80036;stroke-width:1.5;" x1="60.5" x2="193.5" y1="117.6719" y2="117.6719"/><!--MD5=[1e281070be324fe4119de6bf55ec0dae]
+class api--><rect codeLine="11" fill="#F0F8FF" filter="url(#fh0g7eaoavqjk)" height="75.6719" id="api" style="stroke:#A80036;stroke-width:1.5;" width="144" x="59" y="234"/><ellipse cx="118.25" cy="250" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M120.25,246.5 Q120.4531,246 120.6875,245.75 Q120.9219,245.5 121.1875,245.5 Q121.6563,245.5 121.9531,245.7813 Q122.25,246.0625 122.25,246.7188 L122.25,248.2813 Q122.25,248.9375 121.9688,249.2188 Q121.6875,249.5 121.25,249.5 Q120.8594,249.5 120.6094,249.3281 Q120.3594,249.1563 120.25,248.7031 Q120.2031,248.3906 120.0313,248.2188 Q119.7188,247.8906 119.1563,247.7031 Q118.5938,247.5 118.0313,247.5 Q117.3281,247.5 116.7344,247.7813 Q116.1563,248.0625 115.7031,248.6875 Q115.25,249.3125 115.25,250.1719 L115.25,251.0938 Q115.25,252.125 116.0938,252.8125 Q116.9375,253.5 118.4375,253.5 Q119.3281,253.5 119.9531,253.2969 Q120.3125,253.1875 120.7188,252.8281 Q120.9844,252.625 121.125,252.5625 Q121.2656,252.5 121.4375,252.5 Q121.7656,252.5 122,252.7656 Q122.25,253.0156 122.25,253.375 Q122.25,253.7188 121.9063,254.125 Q121.4063,254.7188 120.6094,255.0469 Q119.5625,255.5 118.2813,255.5 Q116.7813,255.5 115.5781,254.9063 Q114.6094,254.4375 113.9219,253.4219 Q113.25,252.4063 113.25,251.2031 L113.25,250.1094 Q113.25,248.8594 113.8438,247.7656 Q114.4531,246.6719 115.5,246.0938 Q116.5625,245.5 117.75,245.5 Q118.4688,245.5 119.0938,245.75 Q119.7188,246 120.25,246.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="17" x="138.75" y="254.9102">api</text><line style="stroke:#A80036;stroke-width:1.5;" x1="60" x2="202" y1="266" y2="266"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="116" x="65" y="281.4189">POST /pizzas: pizzaItem</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="132" x="65" y="295.2549">GET /pizzas/{url}: pizzaItem</text><line style="stroke:#A80036;stroke-width:1.5;" x1="60" x2="202" y1="301.6719" y2="301.6719"/><!--MD5=[58f90c50833ca3aaf64cf0c02954327d]
+class PizzaDb--><rect codeLine="18" fill="#F0F8FF" filter="url(#fh0g7eaoavqjk)" height="75.6719" id="PizzaDb" style="stroke:#A80036;stroke-width:1.5;" width="114" x="59" y="418"/><ellipse cx="91.1" cy="434" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M93.1,430.5 Q93.3031,430 93.5375,429.75 Q93.7719,429.5 94.0375,429.5 Q94.5063,429.5 94.8031,429.7813 Q95.1,430.0625 95.1,430.7188 L95.1,432.2813 Q95.1,432.9375 94.8188,433.2188 Q94.5375,433.5 94.1,433.5 Q93.7094,433.5 93.4594,433.3281 Q93.2094,433.1563 93.1,432.7031 Q93.0531,432.3906 92.8813,432.2188 Q92.5688,431.8906 92.0063,431.7031 Q91.4438,431.5 90.8813,431.5 Q90.1781,431.5 89.5844,431.7813 Q89.0063,432.0625 88.5531,432.6875 Q88.1,433.3125 88.1,434.1719 L88.1,435.0938 Q88.1,436.125 88.9438,436.8125 Q89.7875,437.5 91.2875,437.5 Q92.1781,437.5 92.8031,437.2969 Q93.1625,437.1875 93.5688,436.8281 Q93.8344,436.625 93.975,436.5625 Q94.1156,436.5 94.2875,436.5 Q94.6156,436.5 94.85,436.7656 Q95.1,437.0156 95.1,437.375 Q95.1,437.7188 94.7563,438.125 Q94.2563,438.7188 93.4594,439.0469 Q92.4125,439.5 91.1313,439.5 Q89.6313,439.5 88.4281,438.9063 Q87.4594,438.4375 86.7719,437.4219 Q86.1,436.4063 86.1,435.2031 L86.1,434.1094 Q86.1,432.8594 86.6938,431.7656 Q87.3031,430.6719 88.35,430.0938 Q89.4125,429.5 90.6,429.5 Q91.3188,429.5 91.9438,429.75 Q92.5688,430 93.1,430.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="44" x="108.9" y="438.9102">PizzaDb</text><line style="stroke:#A80036;stroke-width:1.5;" x1="60" x2="172" y1="450" y2="450"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="102" x="65" y="465.4189">makePizza: pizzaItem</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="101" x="65" y="479.2549">tastePizza: pizzaItem</text><line style="stroke:#A80036;stroke-width:1.5;" x1="60" x2="172" y1="485.6719" y2="485.6719"/><!--MD5=[fb067097af8bb604a1efa0f141662391]
+link AWS Gateway Event to Claudia API--><path d="M24,150.5469 C24,150.8747 24,151.2032 24,151.5322 C24,152.8482 24,154.1731 24,155.5055 C24,158.1704 24,160.8655 24,163.5808 C24,169.0114 24,174.5227 24,180.0338 C24,182.7893 24,185.5448 24,188.2902 C24,188.6333 24,188.9763 24,189.3192 C24,189.4906 24,189.662 24,189.8333 " fill="none" id="AWS Gateway Event-to-Claudia API" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="24,189.8333,31,170.8333,17,170.8333,24,189.8333" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[adad77ecbbeb7e4a997a87bd5386e065]
+link Claudia API to DynamoDB--><path d="M24,334.5469 C24,334.8747 24,335.2032 24,335.5322 C24,336.8482 24,338.1731 24,339.5055 C24,342.1704 24,344.8655 24,347.5808 C24,353.0114 24,358.5227 24,364.0337 C24,366.7893 24,369.5448 24,372.2902 C24,372.6333 24,372.9763 24,373.3192 C24,373.4906 24,373.662 24,373.8333 " fill="none" id="Claudia API-to-DynamoDB" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="24,373.8333,31,354.8333,17,354.8333,24,373.8333" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[0ba3ffd4c50593e2d7b638d8a6a2de41]
+@startuml
+'https://plantuml.com/sequence-diagram
+
+package "AWS Gateway Event" {
+  class GatewayEventType #aliceblue {
+    body: pizza
+    pathParams: url
+  }
+}
+
+package "Claudia API" {
+  class api #aliceblue {
+    POST /pizzas: pizzaItem
+    GET /pizzas/{url}: pizzaItem
+  }
+}
+
+package DynamoDB {
+  class PizzaDb #aliceblue {
+    makePizza: pizzaItem
+    tastePizza: pizzaItem
+  }
+}
+
+"AWS Gateway Event" - -^ "Claudia API"
+"Claudia API" - -^ DynamoDB
+
+@enduml
+
+@startuml
+
+package "AWS Gateway Event" {
+  class GatewayEventType #aliceblue {
+    body: pizza
+    pathParams: url
+  }
+}
+
+package "Claudia API" {
+  class api #aliceblue {
+    POST /pizzas: pizzaItem
+    GET /pizzas/{url}: pizzaItem
+  }
+}
+
+package DynamoDB {
+  class PizzaDb #aliceblue {
+    makePizza: pizzaItem
+    tastePizza: pizzaItem
+  }
+}
+
+"AWS Gateway Event" - -^ "Claudia API"
+"Claudia API" - -^ DynamoDB
+
+@enduml
+
+PlantUML version 1.2021.00(Sun Jan 10 04:25:05 CST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: en
+Country: US
+--></g></svg>
